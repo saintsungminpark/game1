@@ -80,7 +80,7 @@ function draw() {
         ctx.fillStyle = (i == 0) ? "green" : "white";
         ctx.fillRect(snake[i].x, snake[i].y, box, box); // (x위치, y위치, x크기, y크기 )
 
-        ctx.strokeStyle = "black";
+        ctx.strokeStyle = "green";
         ctx.strokeRect(snake[i].x, snake[i].y, box, box);
     }
     ctx.drawImage(foodImg, food.x, food.y);
